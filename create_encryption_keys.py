@@ -33,3 +33,9 @@ print('encrypt_key = {', end="")
 for key in encrypt_key:
     print('\'{}\': \'{}\','.format(key, encrypt_key[key]), end=" ")
 print('}', end="")
+
+print()
+print('decrypt_key = {', end="")
+for key in encrypt_key:
+    print('\'{}\': \'{}\','.format(encrypt_key[key], key), end=" ")
+print('}', end="")
