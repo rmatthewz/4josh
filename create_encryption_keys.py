@@ -1,9 +1,10 @@
 from string import ascii_lowercase
 from string import ascii_uppercase
 from string import digits
+from string import punctuation
 import random
 
-punctuation = ' .,{}!@#$%^&*?-_<>[]|'
+punctuation = ' .,{}!@#$%^&*?-_<>[]|:;~+'
 
 all_characters = ascii_lowercase + ascii_uppercase + punctuation + digits
 total_char = len(all_characters)
